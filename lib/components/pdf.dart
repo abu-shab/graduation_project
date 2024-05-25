@@ -80,9 +80,9 @@ class _PDFViewerPageState extends State<PDFViewerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('PDF Viewer'),
-      ),
+
+
+
       body: Stack(
         children: <Widget>[
           PDFView(
